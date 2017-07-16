@@ -1,0 +1,114 @@
+// CONTACT
+#contact {
+    padding: 5rem 0;
+    background-color: $green;
+    
+    text-align: center;
+    
+    .lead {
+        margin-bottom: -.25rem;
+        
+        font-size: 1.85rem;
+        font-weight: 700;
+    }
+    
+    p {
+        font-size: 1.65rem;
+        font-weight: 300;
+    }
+    
+    .text-animate {
+        font-weight: 700;
+    }
+    
+    .btn {
+        margin-top: 2.5rem;
+        border: 2px solid $black;
+        color: $black;
+        
+        &:hover {
+            background-color: $black;
+            color: $green;
+        }
+    }
+    
+    .contact__social {
+        margin-top: 3rem;
+        
+        font-size: 2rem;
+        
+        a {
+            color: $black;
+            transition: all .3s;
+            
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+// FOOTER
+#footer {
+    padding: .5rem 0;
+    background-color: $black;
+    
+    text-align: center;
+    color: $white;
+    
+    p {
+        font-size: .85rem;
+        
+        a {
+            color: $white;
+            text-decoration: underline;
+            transition: all .3s;
+            
+            &:hover {
+                color: $green;
+            }
+        }
+        
+        .fa-heart {
+            color: red;
+        }
+    }
+}
+
+
+// RESPONSIVE
+@media (min-width: 47.9em) {
+    #contact {
+        .lead {
+            font-size: 2.05rem;
+        }
+
+        p {
+            font-size: 1.85rem;
+        }
+    }    
+}
+
+@media (min-width: 61.9em) {
+    #contact {
+        .lead {
+            font-size: 2.25rem;
+        }
+
+        p {
+            font-size: 2.05rem;
+        }
+    }    
+}
+
+@media (min-width: 74.9em) {
+    #contact {
+        .lead {
+            font-size: 2.45rem;
+        }
+
+        p {
+            font-size: 2.25rem;
+        }
+    }    
+}
